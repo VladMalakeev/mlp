@@ -1,0 +1,540 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,  
+pre, form, fieldset, input, textarea, p, blockquote {
+  padding: 0; 
+  margin: 0; 
+  } 
+fieldset, img {  
+  border: 0; 
+  } 
+
+ol, ul { 
+  
+  } 
+address, caption, cite, code, dfn, em, strong, th, var { 
+  font-weight: normal; 
+  font-style: normal; 
+  } 
+caption, th { 
+  text-align: left; 
+  } 
+h1, h2, h3, h4, h5, h6 { 
+  font-weight: normal; 
+  font-size: 100%; 
+  } 
+q:before, q:after { 
+  content: ''; 
+  } 
+abbr, acronym {  
+  border: 0; 
+  } 
+/* ================================================ Стили сайта =================================================== */
+body{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif !important;
+	color:#000000;
+	background: #a3c2ff url(../images/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+a{
+	color:#3A37CA;
+	text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p{
+	margin:5px 0 5px 0;
+	line-height:16px;
+}
+h1{
+	font-size:26px;
+	line-height:26px;
+	font-weight: 300;
+	padding: 3px 0 12px 0;
+}
+h2{
+	font-size:22px;
+	line-height:22px;
+	font-weight: 250;
+	margin: 3px 0 9px 0;
+}
+h3{
+	font-size:18px;
+	line-height:18px;
+	color:#A52E2E;
+	font-weight: 100;
+	margin: 18px 0 5px 0;
+}
+h4{
+	font-size:13px;
+	line-height:15px;
+	color:#000000;
+	font-weight: bolder;
+}
+.clear{
+	clear:both;
+}
+#main{
+	width: 987px;
+	margin:0px auto;
+}
+#header, #cont_bottom, #data_content, #char_content, #shop_lobby_content, #charButtons{
+	background-color:rgba(255, 255, 255, 0.74);
+    width: 977px;
+	margin:0 auto;
+}
+
+/* ================================================ Хедер =================================================== */
+#menu{
+	margin: 0 auto;
+	padding:40px;
+	float:right;
+}
+#menu a{
+	color:#000000;
+	text-decoration: none;
+	padding: 10px;
+}
+#menu a:hover {
+	background-color:#E83939;
+	color:#FFFFFF;
+}
+#menu a:active {
+    background-color:#000000 !important;
+	color:#FFFFFF !important;
+} 
+.current {
+	background-color:rgba(75, 66, 144, 0.47);
+	color:#FFFFFF !important;
+}
+
+/* ================================================ Контент =================================================== */
+#cont_middle{
+    border: 5px solid purple;
+    width: 987px;
+	margin:0 auto;
+	text-align: center;
+}
+#banner{
+    margin:auto;
+}
+#art{
+	width:280px;
+	height:260px;
+	float:right;
+	background-image:url(../images/main_pony.png);
+	background-size: cover;
+	background-position: center;
+}
+#cont_bottom h1{
+	text-align:center;
+	padding:30px 0 30px 0;
+}
+#cont_bottom h2{
+	margin:10px;
+	width: 560px;
+	font-style: italic;
+	text-indent: 30px;
+	float:left;
+}
+#cont_bottom a{
+	color:black;
+	text-decoration:none;
+	cursor: pointer;
+}
+.who{
+	float:left;
+	width: 265px;
+	margin: 0 20px 0 30px;
+	border-radius:0 0 10px 10px;
+	padding:0 0 15px 0;
+}
+#cont_middle img{
+	margin:0 auto;
+}
+.float_left{
+	float:left;
+	border:0 !important;
+	margin:0 10px 0 0;
+}
+.who img:nth-child(2n) {
+	margin:0 0 10px 0;
+}
+.who p{
+	margin: 5px 0 15px 0;
+}
+/* ================================================ Контакт =================================================== */
+.person{
+	width:440px;
+	margin:10px;
+	float:left;
+	height:440px;
+	background-color:white;
+}
+#content{
+	margin:0 auto;
+
+	background-color:rgba(255, 255, 255, 0.74);
+	padding:20px;
+}
+#people{
+	background-image:url(../images/bordbg3.png);
+	margin:0 auto;
+	width:920px;
+}
+#sign{
+	text-align:center;
+	padding:0 0 20px 0;
+	font-size:36px;
+}
+.person h3{
+	margin:0 auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+.person a{
+	font-size:26px;
+	line-height:26px;
+	font-weight: 300;
+	margin: auto;
+	display: block;
+	text-align:center;
+}
+.person a:hover{
+	text-decoration:none;
+	cursor:pointer;
+}
+.database{
+	margin:350px 0 0 0;
+}
+#vitariel_pony{
+	width:250px;
+	height:50px;
+	background-image: url(../people/text/vitariel_pony.png);
+}
+#vitariel{
+	background-image:url(../people/images/vitariel_pony.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#vitariel:hover{
+	background-image:url(../people/images/vitariel_pony.gif);
+}
+#vitariel h3{
+	width:150px;
+	height:35px;
+	background-image:url(../people/text/glava.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#greenlight_shadow{
+	width:300px;
+	height:50px;
+	background-image: url(../people/text/greenlight_shadow.png);
+}
+#greenlight{
+	background-image:url(../people/images/greenlight_shadow.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#greenlight:hover{
+	background-image:url(../people/images/greenlight_shadow.gif);
+}
+#greenlight h3{
+	width:150px;
+	height:35px;
+	background-image:url(../people/text/zamest.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ice_cream{
+	width:250px;
+	height:50px;
+	background-image: url(../people/text/ice_cream.png);
+}
+#ice{
+	background-image:url(../people/images/ice_cream.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ice:hover{
+	background-image:url(../people/images/ice_cream.gif);
+}
+#ice h3{
+	width:150px;
+	height:35px;
+	background-image:url(../people/text/game_caster.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*============================================================База Данных=======================================================*/
+.data_char img{
+	width:128px;
+	height:72px;
+	float:left;
+}
+.data_char h1{
+	float:left;
+	margin:22px 0 0 20px;
+}
+.data_char a{
+	float:right;
+	padding:15px;
+	background-color:red;
+	color:white;
+	text-decoration: none;
+	margin:15px 36px 12px 12px;
+}
+.data_char{
+	width:700px;
+	margin: 5px auto;
+	padding:5px;
+	border:1px solid black;
+	background-color:rgba(255, 255, 255, 0.74);
+	height:85px;
+}
+#data_content{
+	padding-bottom:20px;
+	padding-top:20px;
+}
+#charPrev{
+	float:left; 
+	width: 100px; 
+	height: 50px; 
+	background-image:url(../images/left.png); 
+	background-size:cover; 
+	border:0px;
+	margin: 3px;
+}
+#charNext{
+	float:left; 
+	width: 100px; 
+	height: 50px; 
+	background-image:url(../images/right.png); 
+	background-size:cover; 
+	border:0px;
+	margin: 3px;
+}
+#charButtons{
+	height:60px;
+	margin:auto;
+}
+#charButtons button{
+	margin:auto;
+	display:block;
+	padding:15px;
+}
+
+/*=======================================================Данные о персонаже================================================================*/
+#imagination img{
+	width:384px;
+	height:216px;
+}
+#rase{
+	text-align:center;
+	margin:30px 0 0 0;
+	
+}
+#imagination {
+	width:384px;
+	float:left;
+	padding-bottom:30px;
+}
+#char_content h1{
+	text-align:center;
+	padding:90px 0 0 0;
+}
+#char_content a{
+	float:right; 
+	text-decoration:none; 
+	background-color:red; 
+	color:white; 
+	padding:10px; 
+	margin:20px;
+}
+#char_content h4, #char_content ul{
+	margin:0 0 0 20px;
+	width:900px;
+}
+/*=======================================================Магазин================================================================*/
+#shop_lobby_content{
+	padding-bottom:20px;
+}
+.data_type img{
+	width:128px;
+	height:72px;
+	float:left;
+}
+.data_type h1{
+	float:left;
+	margin:22px 0 0 20px;
+}
+.data_type a{
+	float:right;
+	padding:15px;
+	background-color:red;
+	color:white;
+	text-decoration: none;
+	margin:15px 36px 12px 12px;
+}
+.data_type{
+	width:700px;
+	margin:auto;
+	padding:5px;
+	border:1px solid black;
+	background-color:rgba(255, 255, 255, 0.74);
+}
+/*=======================================================Товары================================================================*/
+
+#inStock_hub{
+	float:left;
+	width:275px;
+}
+#inStock img{
+	margin:3px; 
+}
+#inStockPrev{
+	float:left; 
+	width: 50px; 
+	height: 25px; 
+	background-image:url(../images/left.png); 
+	background-size:cover; 
+	border:0px;
+	margin: 3px;
+}
+#inStockNext{
+	float:left; 
+	width: 50px; 
+	height: 25px; 
+	background-image:url(../images/right.png); 
+	background-size:cover; 
+	border:0px;
+	margin: 3px;
+}
+#wish{
+	background:white;
+	border:1px solid black;
+}
+#wish img{
+	margin:6px 0 0 1px; 
+}
+#wishPrev{
+	width: 25px; 
+	height: 50px; 
+	background-image:url(../images/up.png); 
+	background-size:cover;
+	border:0px;
+	margin: 3px;
+}
+#wishNext{
+	width: 25px; 
+	height: 50px; 
+	background-image:url(../images/down.png); 
+	background-size:cover;
+	border:0px;
+	margin: 3px;
+}
+
+#current_image{
+	background:white;
+	border:1px solid black;
+	width:512px; 
+	height:288px; 
+	margin:0 0 0 20px;
+	text-align: center;
+}
+#property{
+	height:400px;	
+	float:left;
+}
+#makeOrder{
+	width:440px; 
+	height:75px;
+	color:#00000000;
+	display:table; 
+	margin:20px auto;
+	background: url('../images/choose_supp.png');
+	background-size: cover;
+	border: 2px groove black;
+}
+#property button{
+	border:none;
+}
+
+#order_form{
+	display: none;
+	width:100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+	position: fixed;
+}
+
+#order_form form{
+	border: 2px solid black;
+	background: white;
+	padding: 50px;
+	margin: 10% auto;
+	display: table;
+
+
+}
+
+#formButtons{
+	text-align: center;
+}
+#leftButtons{
+
+}
+rightButtons{
+
+}
+#orderTable tr{
+	margin:5px;
+}
+#orderTable td{
+	text-align: right;
+}
+.cbalink{
+	display:none;
+}
+
+#cartBlock{
+display: inline;
+}
+#cartBlock img{
+margin-bottom: -8px;
+}
+#cartBlock a{
+	margin: 0;
+	padding: 10px 3px;
+}
+#cart{
+	color:red;
+}
+#cartContent{
+	background-color: rgba(255, 255, 255,0.74);
+	padding: 20px;
+	text-align: center;
+	width: 977px;
+	margin: auto;
+}
+#cartTable{
+	background: white;
+}
+#cartTable th{
+	text-align: center;
+    vertical-align: middle;
+}
+#cartTable td{
+    vertical-align: middle;
+}
+
+.errorText{
+	color:  red;
+	font-weight: bold;
+	margin-left:20px;
+}
